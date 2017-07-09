@@ -3,10 +3,9 @@ Types::QueryType = GraphQL::ObjectType.define do
 
   field :node, GraphQL::Relay::Node.field
 
-  field :root, types[Types::RootType] do
-    description "High Level GraphQl Type"
-    resolve ->(obj, args, ctx) {
-      Root.all
+  field :user, types.String do 
+    resolve ->(obj,args,ctx) {
+      "Should Be changed"
     }
   end
 end
