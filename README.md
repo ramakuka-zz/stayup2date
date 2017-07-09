@@ -1,3 +1,5 @@
+# README
+=======
 # StayUp2Date
 ## Say what?
 Stayup2date is a project that wants to help you stay up to date with the latest news on the things that matter to you.
